@@ -15,6 +15,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using PetShop.Core.ApplicationService;
+using PetShop.Core.ApplicationService.Implementations;
 using PetShop.Core.DomainService;
 using PetShop.Infrastructure.Data.Repositories;
 
@@ -36,6 +38,7 @@ namespace RestAPI
 			services.AddScoped<IPetRepository, PetRepository>();
 			services.AddScoped<IOwnerRepository, OwnerRepository>();
 			services.AddScoped<IPetService, PetService>();
+			services.AddScoped<IOwnerService, OwnerService>();
 
 			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

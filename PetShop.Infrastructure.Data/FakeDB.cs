@@ -26,9 +26,9 @@ namespace Data
 			var SecondOwner = new Owner()
 			{
 				Id = OwnerId++,
-				FirstName = "Daniel",
-				LastName = "Henten",
-				Address = "hehe2"
+				FirstName = "Tvoj",
+				LastName = "Tatko",
+				Address = "hehe1"
 
 			};
 
