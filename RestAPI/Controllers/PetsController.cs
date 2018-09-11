@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Core.ApplicationService;
 using Entities;
 using Microsoft.AspNetCore.Mvc;
+using PetShop.Core.Entities;
 
 namespace RestAPI.Controllers
 {
@@ -32,6 +33,7 @@ namespace RestAPI.Controllers
         [HttpGet("{id}")]
         public ActionResult<Pet> Get(int id)
         {
+			if (id < 1) return BadRequest("Id must be greater then 0");
 			return _petService.FindPetById(id);
         }
 
@@ -39,6 +41,28 @@ namespace RestAPI.Controllers
         [HttpPost]
         public ActionResult<Pet> Post([FromBody] Pet pet)
         {
+			if (string.IsNullOrEmpty(pet.Name))
+			{
+				return BadRequest("You must set pet name!");
+			}
+
+			if (string.IsNullOrEmpty(pet.Type))
+			{
+				return BadRequest("You need to set the type of the pet!");
+			}
+			if (string.IsNullOrEmpty(pet.Color))
+			{
+				return BadRequest("You need to set the colour of the pet!");
+			}
+			if (double.IsPositiveInfinity(pet.Price) == true)
+			{
+				return BadRequest("Price needs to be more then 0!");
+			}
+			if (pet.Owner == null)
+			{
+				return BadRequest("You need to set the owner of the pet!");
+			}
+
 			return _petService.AddPet(pet);
         }
 
@@ -48,7 +72,7 @@ namespace RestAPI.Controllers
         {
 			if (id < 1 || id != pet.Id)
 			{
-				return BadRequest("Id is not good.");
+				return BadRequest("The ID of the pet is not correct!");
 			}
 			return Ok(_petService.UpdatePet(pet));
         }
@@ -59,6 +83,12 @@ namespace RestAPI.Controllers
 		public ActionResult<Pet> Delete(int id)
         {
 			var pet = _petService.DeletePet(id);
+		
+			if (pet == null)
+			{
+				return StatusCode(404, "Could not find the pet with this ID: " + id);
+			}
+
 			return Ok($"Customer with Id: {id} is deleted");
         }
     }

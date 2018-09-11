@@ -40,6 +40,18 @@ namespace RestAPI.Controllers
 		[HttpPost]
 		public ActionResult<Owner> Post([FromBody] Owner owner)
 		{
+			if (string.IsNullOrEmpty(owner.FirstName))
+			{
+				return BadRequest("You must set the Owner's name!");
+			}
+			if (string.IsNullOrEmpty(owner.LastName))
+			{
+				return BadRequest("You must set the Owner's last name!");
+			}
+			if (string.IsNullOrEmpty(owner.Address))
+			{
+				return BadRequest("You must set the Owner's address!");
+			}
 			return _ownerService.CreateOwner(owner);
 		}
 
@@ -49,7 +61,7 @@ namespace RestAPI.Controllers
 		{
 			if (id < 1 || id != owner.Id)
 			{
-				return BadRequest("Parameter Id and order ID must be the same");
+				return BadRequest("The ID of the owner is not correct!");
 			}
 
 			return _ownerService.UpdateOwner(owner);
@@ -59,15 +71,15 @@ namespace RestAPI.Controllers
 		[HttpDelete("{id}")]
 		public ActionResult<Owner> Delete(int id)
 		{
-			if (id < 1 )
+			var pet = _ownerService.DeleteOwner(id);
+
+			if (pet == null)
 			{
-				return BadRequest("Parameter Id and order ID must be the same");
+				return StatusCode(404, "Could not find the pet with this ID: " + id);
 			}
-			else 
-			{
-				_ownerService.DeleteOwner(id);
-				return Ok($"Order with Id: {id} is Deleted");
-			}
+
+			return Ok($"Order with Id: {id} is Deleted");
+
 		}
 	}
 }
