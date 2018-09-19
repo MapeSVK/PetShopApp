@@ -15,6 +15,9 @@ namespace PetShop.Core.ApplicationService
 
 		//GET
 		Owner FindOwnerById(int id);
+		Owner FindOwnerByIdIncludePets(int id);
+		
+		
 		List<Owner> GetAllOwners();
 
 		//PUT

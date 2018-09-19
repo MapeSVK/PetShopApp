@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Core.DomainService;
 using PetShop.Core.DomainService;
 using PetShop.Core.Entities;
 
@@ -8,17 +9,22 @@ namespace PetShop.Core.ApplicationService.Implementations
 {
 	public class OwnerService:IOwnerService
 	{
-		private IOwnerRepository _ownerRepository;
+		readonly IOwnerRepository _ownerRepository;
+		readonly IPetRepository _petRepository;
 
-		public OwnerService(IOwnerRepository ownerRepository)
+
+		public OwnerService(IOwnerRepository ownerRepository,
+			IPetRepository petRepository)
 		{
 			_ownerRepository = ownerRepository;
+			_petRepository = petRepository;
 		}
 
 		public Owner CreateOwner(Owner owner)
 		{
 			return _ownerRepository.CreateOwner(owner);
 		}
+	
 
 		public Owner DeleteOwner(int id)
 		{
@@ -28,6 +34,12 @@ namespace PetShop.Core.ApplicationService.Implementations
 		public Owner FindOwnerById(int id)
 		{
 			return _ownerRepository.ReadById(id);
+		}
+
+		public Owner FindOwnerByIdIncludePets(int id)
+		{
+			var customer = _ownerRepository.ReadyByIdIncludePets(id);
+			return customer;
 		}
 
 		public List<Owner> GetAllOwners()

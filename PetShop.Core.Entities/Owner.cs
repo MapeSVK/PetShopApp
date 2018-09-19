@@ -1,4 +1,7 @@
 using System;
+using System.Collections.Generic;
+using Entities;
+
 namespace PetShop.Core.Entities
 {
 	public class Owner
@@ -25,5 +28,6 @@ namespace PetShop.Core.Entities
 			get;
 			set;
 		}
+		public List<Pet> Pets { get; set; }
 	}
 }

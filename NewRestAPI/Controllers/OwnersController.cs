@@ -1,14 +1,9 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using PetShop.Core.ApplicationService;
 using PetShop.Core.Entities;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
-namespace RestAPI.Controllers
+namespace NewRestAPI.Controllers
 {
 	[Route("api/[controller]")]
 	[ApiController]
@@ -33,7 +28,7 @@ namespace RestAPI.Controllers
 		public ActionResult<Owner> Get(int id)
 		{
 			if (id < 1) return BadRequest("Id must be greater then 0");
-			return _ownerService.FindOwnerById(id);
+			return _ownerService.FindOwnerByIdIncludePets(id);
 		}
 
 		// POST api/owners -- CREATE

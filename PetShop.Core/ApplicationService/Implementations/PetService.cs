@@ -25,10 +25,10 @@ namespace Core.ApplicationService.Implementations
 		{
 			var PetList = _iPetRepository.ReadAllPets().ToList();
 
-			foreach (var pet in PetList)
-			{
-				pet.Owner = _iOwnerRepository.ReadById(pet.Owner.Id);
-			}
+//			foreach (var pet in PetList)
+//			{
+//				pet.Owner = _iOwnerRepository.ReadById(pet.Owner.Id);
+//			}
 			return PetList;
 
 
