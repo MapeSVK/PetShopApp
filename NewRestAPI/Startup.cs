@@ -37,7 +37,7 @@ namespace NewRestAPI
 		{
 	        
 			services.AddDbContext<PetShopAppContext>(
-				opt => opt.UseSqlite("2Data Source=Database.db")
+				opt => opt.UseSqlite("Data Source=Data.db")
 			);
 	        
 			services.AddScoped<IPetRepository, PetRepository>();

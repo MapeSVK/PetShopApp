@@ -37,13 +37,15 @@ namespace PetShop.Infrastructure.Database
 
 		public Owner UpdateOwner(Owner UpdatedOwner)
 		{
-			throw new System.NotImplementedException();
+			_psc.Attach(UpdatedOwner).State = EntityState.Modified;
+			_psc.Entry(UpdatedOwner).Collection(o => o.Pets).IsModified = true;
+			_psc.SaveChanges();
+
+			return UpdatedOwner;
 		}
 
 		public Owner DeleteOwner(int id)
 		{
-			var PetsToRemove = _psc.Pets.Where(p => p.Owner.Id == id);
-			_psc.RemoveRange(PetsToRemove);
 			var OwnerRemoved = _psc.Remove(new Owner {Id = id}).Entity;
 			_psc.SaveChanges();
 			return OwnerRemoved;
