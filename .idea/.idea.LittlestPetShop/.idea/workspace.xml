@@ -23,15 +23,7 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37ed2b03-b931-4322-98e0-ddd2ac2d2f54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LittlestPetShop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LittlestPetShop/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LittlestPetShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LittlestPetShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewRestAPI/Database.db" beforeDir="false" afterPath="$PROJECT_DIR$/NewRestAPI/Database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewRestAPI/NewRestAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NewRestAPI/NewRestAPI.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewRestAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NewRestAPI/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetShop.Infrastructure.Database/OwnerRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PetShop.Infrastructure.Database/OwnerRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetShop.Infrastructure.Database/PetRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PetShop.Infrastructure.Database/PetRepository.cs" afterDir="false" />
-    </list>
+    <list default="true" id="37ed2b03-b931-4322-98e0-ddd2ac2d2f54" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PetShop.Infrastructure.Database/OwnerRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="601">
+              <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
               <folding>
                 <marker date="1537862599826" expanded="false" signature="6:152" ph="..." />
                 <marker date="1537862599826" expanded="true" signature="195:1200" ph="{...}" />
@@ -206,7 +198,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="823" />
@@ -355,12 +347,12 @@
       <workItem from="1537257407485" duration="17378000" />
       <workItem from="1537801451043" duration="284000" />
       <workItem from="1537808029443" duration="4813000" />
-      <workItem from="1537861876839" duration="683000" />
+      <workItem from="1537861876839" duration="1127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28885000" />
+    <option name="totallyTimeSpent" value="29329000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -372,7 +364,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21101573" />
@@ -380,7 +372,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28864568" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32968536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -691,8 +683,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PetShop.Infrastructure.Database/OwnerRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="601">
+          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
           <folding>
             <marker date="1537862599826" expanded="false" signature="6:152" ph="..." />
             <marker date="1537862599826" expanded="true" signature="195:1200" ph="{...}" />
