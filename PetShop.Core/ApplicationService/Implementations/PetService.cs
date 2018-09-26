@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using Core.DomainService;
 using Entities;
@@ -32,6 +33,20 @@ namespace Core.ApplicationService.Implementations
 			return PetList;
 
 
+		}
+
+		public List<Pet> GetFilteredPets(Filter filter)
+		{
+			if (filter.CurrentPage < 0 || filter.ItemsPrPage < 0)
+			{
+				throw new InvalidDataException("CurrentPage and ItemsPage Must zero or more");
+			}
+			if((filter.CurrentPage -1 * filter.ItemsPrPage) >= _iPetRepository.Count())
+			{
+				throw new InvalidDataException("Index out bounds, CurrentPage is to high");
+			}
+			
+			return _iPetRepository.ReadAllPets(filter).ToList();
 		}
 
 

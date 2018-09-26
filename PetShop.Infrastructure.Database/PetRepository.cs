@@ -3,6 +3,7 @@ using System.Linq;
 using Core.DomainService;
 using Entities;
 using Microsoft.EntityFrameworkCore;
+using PetShop.Core.Entities;
 
 namespace PetShop.Infrastructure.Database
 {
@@ -15,9 +16,18 @@ namespace PetShop.Infrastructure.Database
 			_psc = psc;
 		}
 
-		public IEnumerable<Pet> ReadAllPets()
+		public IEnumerable<Pet> ReadAllPets(Filter filter)
 		{
-			return _psc.Pets;
+			if (filter == null)
+			{
+				return _psc.Pets;
+			}
+
+			return _psc.Pets
+				.Skip((filter.CurrentPage - 1) * filter.ItemsPrPage)
+				.Take(filter.ItemsPrPage)
+				.OrderBy(p => p.Price);
+
 		}
 
 		public Pet UpdatePet(Pet updatedPet)
@@ -47,6 +57,11 @@ namespace PetShop.Infrastructure.Database
 		public Pet GetPetById(int id)
 		{
 			return _psc.Pets.Include(p => p.Owner).FirstOrDefault(p => p.Id == id);
+		}
+
+		public int Count()
+		{
+			return _psc.Pets.Count();
 		}
 	}
 }

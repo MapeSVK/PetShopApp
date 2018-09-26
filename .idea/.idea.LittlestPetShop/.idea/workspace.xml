@@ -23,7 +23,15 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37ed2b03-b931-4322-98e0-ddd2ac2d2f54" name="Default Changelist" comment="" />
+    <list default="true" id="37ed2b03-b931-4322-98e0-ddd2ac2d2f54" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LittlestPetShop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LittlestPetShop/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LittlestPetShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LittlestPetShop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewRestAPI/Controllers/PetsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NewRestAPI/Controllers/PetsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetShop.Core/ApplicationService/IPetService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PetShop.Core/ApplicationService/IPetService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetShop.Core/ApplicationService/Implementations/PetService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PetShop.Core/ApplicationService/Implementations/PetService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetShop.Core/DomainService/IPetRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PetShop.Core/DomainService/IPetRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetShop.Infrastructure.Database/PetRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PetShop.Infrastructure.Database/PetRepository.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +56,7 @@
     <session id="-55644024">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="94" />
+          <entry key="cs" value="102" />
           <entry key="db" value="1" />
           <entry key="sql" value="1" />
           <entry key="targets" value="1" />
@@ -56,7 +64,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="94" />
+          <entry key="C#" value="102" />
           <entry key="MsBuild targets file" value="1" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="1" />
@@ -64,13 +72,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1068" />
+          <entry key="cs" value="1411" />
           <entry key="targets" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1068" />
+          <entry key="C#" value="1411" />
           <entry key="MsBuild targets file" value="1" />
         </counts>
       </usages-collector>
@@ -90,66 +98,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PetShop.Infrastructure.Database/OwnerRepository.cs">
+        <entry file="file://$PROJECT_DIR$/PetShop.Core/DomainService/IPetRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+            <state relative-caret-position="90">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
-                <marker date="1537862599826" expanded="false" signature="6:152" ph="..." />
-                <marker date="1537862599826" expanded="true" signature="195:1200" ph="{...}" />
-                <marker date="1537862599826" expanded="true" signature="247:1198" ph="{...}" />
-                <marker date="1537862599826" expanded="true" signature="334:357" ph="{...}" />
-                <marker date="1537862599826" expanded="true" signature="401:494" ph="{...}" />
-                <marker date="1537862599826" expanded="true" signature="527:595" ph="{...}" />
-                <marker date="1537862599826" expanded="true" signature="637:668" ph="{...}" />
-                <marker date="1537862599826" expanded="true" signature="716:902" ph="{...}" />
-                <marker date="1537862599826" expanded="true" signature="938:1056" ph="{...}" />
-                <marker date="1537862599826" expanded="true" signature="1101:1195" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PetShop.Infrastructure.Database/PetRepository.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-              <folding>
-                <marker date="1537816037224" expanded="false" signature="6:131" ph="..." />
-                <marker date="1537816037224" expanded="true" signature="174:1008" ph="{...}" />
-                <marker date="1537816037224" expanded="true" signature="221:1006" ph="{...}" />
-                <marker date="1537816037224" expanded="true" signature="306:329" ph="{...}" />
-                <marker date="1537816037224" expanded="true" signature="370:399" ph="{...}" />
-                <marker date="1537816037224" expanded="true" signature="439:619" ph="{...}" />
-                <marker date="1537816037224" expanded="true" signature="651:757" ph="{...}" />
-                <marker date="1537816037224" expanded="true" signature="787:887" ph="{...}" />
-                <marker date="1537816037224" expanded="true" signature="920:1003" ph="{...}" />
+                <marker date="1537958743116" expanded="true" signature="6:92" ph="..." />
+                <marker date="1537958743116" expanded="true" signature="122:427" ph="{...}" />
+                <marker date="1537958743116" expanded="true" signature="157:425" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NewRestAPI/Startup.cs">
+        <entry file="file://$PROJECT_DIR$/PetShop.Infrastructure.Database/PetRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1062">
-              <caret line="94" column="49" selection-start-line="94" selection-start-column="49" selection-end-line="94" selection-end-column="49" />
+            <state relative-caret-position="232">
+              <caret line="26" column="68" lean-forward="true" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
               <folding>
-                <marker date="1537865531948" expanded="false" signature="6:733" ph="..." />
-                <marker date="1537865531948" expanded="true" signature="755:2965" ph="{...}" />
-                <marker date="1537865531948" expanded="true" signature="779:2962" ph="{...}" />
-                <marker date="1537865531948" expanded="true" signature="785:880" ph="/* public Startup(IConfiguration configuration) ... */" />
-                <marker date="1537865531948" expanded="true" signature="1013:1330" ph="{...}" />
-                <marker date="1537865531948" expanded="true" signature="1487:2258" ph="{...}" />
-                <marker date="1537865531948" expanded="true" signature="1523:1635" ph="{...}" />
-                <marker date="1537865531948" expanded="true" signature="1669:1804" ph="{...}" />
-                <marker date="1537865531948" expanded="true" signature="2077:2168" ph="{...}" />
-                <marker date="1537865531948" expanded="true" signature="2434:2959" ph="{...}" />
-                <marker date="1537865531948" expanded="true" signature="2466:2689" ph="{...}" />
-                <marker date="1537865531948" expanded="true" signature="2570:2684" ph="{...}" />
-                <marker date="1537865531948" expanded="true" signature="2697:2905" ph="{...}" />
-                <marker date="1537865531948" expanded="true" signature="2764:2881" ph="{...}" />
+                <marker date="1537959087029" expanded="true" signature="6:160" ph="..." />
+                <marker date="1537959087029" expanded="true" signature="203:1280" ph="{...}" />
+                <marker date="1537959087029" expanded="true" signature="250:1278" ph="{...}" />
+                <marker date="1537959087029" expanded="true" signature="335:358" ph="{...}" />
+                <marker date="1537959087029" expanded="true" signature="412:612" ph="{...}" />
+                <marker date="1537959087029" expanded="true" signature="439:471" ph="{...}" />
+                <marker date="1537959087029" expanded="true" signature="652:832" ph="{...}" />
+                <marker date="1537959087029" expanded="true" signature="864:970" ph="{...}" />
+                <marker date="1537959087029" expanded="true" signature="1000:1100" ph="{...}" />
+                <marker date="1537959087029" expanded="true" signature="1133:1216" ph="{...}" />
+                <marker date="1537959087029" expanded="true" signature="1238:1275" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PetShop.Core/ApplicationService/Implementations/PetService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="43" column="78" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
+              <folding>
+                <marker date="1537957945837" expanded="false" signature="6:188" ph="..." />
+                <marker date="1537957945837" expanded="true" signature="239:2629" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="280:2627" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="466:550" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="614:809" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="677:784" ph="/* foreach (var pet in PetList) ... */" />
+                <marker date="1537957945837" expanded="true" signature="860:1247" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="921:1014" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="1093:1183" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="1281:1339" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="1469:1650" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="1497:1645" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="1684:1734" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="1768:1818" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="1859:1917" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="1964:2259" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="2076:2172" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="2127:2167" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="2204:2231" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="2314:2376" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="2435:2624" ph="{...}" />
+                <marker date="1537957945837" expanded="true" signature="2542:2592" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewRestAPI/Controllers/PetsController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+              <folding>
+                <marker date="1537957120510" expanded="false" signature="6:204" ph="..." />
+                <marker date="1537957120510" expanded="true" signature="238:2042" ph="{...}" />
+                <marker date="1537957120510" expanded="true" signature="332:2040" ph="{...}" />
+                <marker date="1537957120510" expanded="true" signature="429:466" ph="{...}" />
+                <marker date="1537957120510" expanded="true" signature="571:715" ph="{...}" />
+                <marker date="1537957120510" expanded="true" signature="582:644" ph="{...}" />
+                <marker date="1537957120510" expanded="true" signature="667:711" ph="{...}" />
+                <marker date="1537957120510" expanded="true" signature="797:907" ph="{...}" />
+                <marker date="1537957120510" expanded="true" signature="994:1484" ph="{...}" />
+                <marker date="1537957120510" expanded="true" signature="1037:1096" ph="{...}" />
+                <marker date="1537957120510" expanded="true" signature="1136:1209" ph="{...}" />
+                <marker date="1537957120510" expanded="true" signature="1249:1324" ph="{...}" />
+                <marker date="1537957120510" expanded="true" signature="1377:1444" ph="{...}" />
+                <marker date="1537957120510" expanded="true" signature="1586:1737" ph="{...}" />
+                <marker date="1537957120510" expanded="true" signature="1621:1691" ph="{...}" />
+                <marker date="1537957120510" expanded="true" signature="1829:2037" ph="{...}" />
+                <marker date="1537957120510" expanded="true" signature="1896:1980" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -180,6 +219,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/905E41DD-D9A1-49F0-936D-A7D5AB99E38E/b1/4f05b11b/DbSet`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NewRestAPI/Controllers/PetsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PetShop.Infrastructure.Database/DBInitializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PetShop.Core.Entities/Filter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PetShop.Infrastructure.Database/PetShopAppContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NewRestAPI/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NewRestAPI/Startup.cs" root0="FORCE_HIGHLIGHTING" />
@@ -208,12 +248,15 @@
         <option value="$PROJECT_DIR$/PetShop.Core.Entities/Owner.cs" />
         <option value="$PROJECT_DIR$/NewRestAPI/Controllers/OwnersController.cs" />
         <option value="$PROJECT_DIR$/PetShop.Core/ApplicationService/Implementations/OwnerService.cs" />
-        <option value="$PROJECT_DIR$/PetShop.Core/ApplicationService/Implementations/PetService.cs" />
         <option value="$PROJECT_DIR$/PetShop.Infrastructure.Database/PetShopAppContext.cs" />
-        <option value="$PROJECT_DIR$/NewRestAPI/Controllers/PetsController.cs" />
-        <option value="$PROJECT_DIR$/PetShop.Infrastructure.Database/PetRepository.cs" />
         <option value="$PROJECT_DIR$/PetShop.Infrastructure.Database/OwnerRepository.cs" />
         <option value="$PROJECT_DIR$/NewRestAPI/Startup.cs" />
+        <option value="$PROJECT_DIR$/PetShop.Core/ApplicationService/IPetService.cs" />
+        <option value="$PROJECT_DIR$/NewRestAPI/Controllers/PetsController.cs" />
+        <option value="$PROJECT_DIR$/PetShop.Core.Entities/Filter.cs" />
+        <option value="$PROJECT_DIR$/PetShop.Core/ApplicationService/Implementations/PetService.cs" />
+        <option value="$PROJECT_DIR$/PetShop.Core/DomainService/IPetRepository.cs" />
+        <option value="$PROJECT_DIR$/PetShop.Infrastructure.Database/PetRepository.cs" />
       </list>
     </option>
   </component>
@@ -269,6 +312,13 @@
               <item name="PetShop.Core" type="24d0babc:SolutionExplorerModelNode" />
               <item name="ApplicationService" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Implementations" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="LittlestPetShop" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="PetShop.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DomainService" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -372,12 +422,12 @@
       <workItem from="1537257407485" duration="17378000" />
       <workItem from="1537801451043" duration="284000" />
       <workItem from="1537808029443" duration="4813000" />
-      <workItem from="1537861876839" duration="1488000" />
+      <workItem from="1537861876839" duration="4966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29690000" />
+    <option name="totallyTimeSpent" value="33168000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,10 +439,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21101573" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18240343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -468,9 +518,6 @@
           <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PetShop.Core/DomainService/IPetRepository.cs">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/PetShop.Infrastructure.Database/PetShopAppContext.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -559,42 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewRestAPI/Controllers/PetsController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
-          <folding>
-            <marker date="1537354034581" expanded="false" signature="6:175" ph="..." />
-            <marker date="1537354034581" expanded="true" signature="209:1885" ph="{...}" />
-            <marker date="1537354034581" expanded="true" signature="303:1883" ph="{...}" />
-            <marker date="1537354034581" expanded="true" signature="400:437" ph="{...}" />
-            <marker date="1537354034581" expanded="true" signature="517:558" ph="{...}" />
-            <marker date="1537354034581" expanded="true" signature="640:750" ph="{...}" />
-            <marker date="1537354034581" expanded="true" signature="837:1327" ph="{...}" />
-            <marker date="1537354034581" expanded="true" signature="880:939" ph="{...}" />
-            <marker date="1537354034581" expanded="true" signature="979:1052" ph="{...}" />
-            <marker date="1537354034581" expanded="true" signature="1092:1167" ph="{...}" />
-            <marker date="1537354034581" expanded="true" signature="1220:1287" ph="{...}" />
-            <marker date="1537354034581" expanded="true" signature="1429:1580" ph="{...}" />
-            <marker date="1537354034581" expanded="true" signature="1464:1534" ph="{...}" />
-            <marker date="1537354034581" expanded="true" signature="1672:1880" ph="{...}" />
-            <marker date="1537354034581" expanded="true" signature="1739:1823" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PetShop.Core/ApplicationService/IPetService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-          <folding>
-            <marker date="1536418054520" expanded="false" signature="6:92" ph="..." />
-            <marker date="1536418054520" expanded="true" signature="127:805" ph="{...}" />
-            <marker date="1536418054520" expanded="true" signature="159:802" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PetShop.Core.Entities/Owner.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -623,34 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PetShop.Core/ApplicationService/Implementations/PetService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding>
-            <marker date="1537260648887" expanded="false" signature="6:171" ph="..." />
-            <marker date="1537260648887" expanded="true" signature="222:2174" ph="{...}" />
-            <marker date="1537260648887" expanded="true" signature="263:2172" ph="{...}" />
-            <marker date="1537260648887" expanded="true" signature="449:533" ph="{...}" />
-            <marker date="1537260648887" expanded="true" signature="597:792" ph="{...}" />
-            <marker date="1537260648887" expanded="true" signature="660:767" ph="/* foreach (var pet in PetList) ... */" />
-            <marker date="1537260648887" expanded="true" signature="826:884" ph="{...}" />
-            <marker date="1537260648887" expanded="true" signature="1014:1195" ph="{...}" />
-            <marker date="1537260648887" expanded="true" signature="1042:1190" ph="{...}" />
-            <marker date="1537260648887" expanded="true" signature="1229:1279" ph="{...}" />
-            <marker date="1537260648887" expanded="true" signature="1313:1363" ph="{...}" />
-            <marker date="1537260648887" expanded="true" signature="1404:1462" ph="{...}" />
-            <marker date="1537260648887" expanded="true" signature="1509:1804" ph="{...}" />
-            <marker date="1537260648887" expanded="true" signature="1621:1717" ph="{...}" />
-            <marker date="1537260648887" expanded="true" signature="1672:1712" ph="{...}" />
-            <marker date="1537260648887" expanded="true" signature="1749:1776" ph="{...}" />
-            <marker date="1537260648887" expanded="true" signature="1859:1921" ph="{...}" />
-            <marker date="1537260648887" expanded="true" signature="1980:2169" ph="{...}" />
-            <marker date="1537260648887" expanded="true" signature="2087:2137" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PetShop.Infrastructure.Database/DBInitializer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
@@ -665,24 +648,6 @@
             <marker date="1537285879897" expanded="true" signature="614:774" ph="{...}" />
             <marker date="1537285879897" expanded="true" signature="806:975" ph="{...}" />
             <marker date="1537285879897" expanded="true" signature="1007:1166" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PetShop.Infrastructure.Database/PetRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-          <folding>
-            <marker date="1537816037224" expanded="false" signature="6:131" ph="..." />
-            <marker date="1537816037224" expanded="true" signature="174:1008" ph="{...}" />
-            <marker date="1537816037224" expanded="true" signature="221:1006" ph="{...}" />
-            <marker date="1537816037224" expanded="true" signature="306:329" ph="{...}" />
-            <marker date="1537816037224" expanded="true" signature="370:399" ph="{...}" />
-            <marker date="1537816037224" expanded="true" signature="439:619" ph="{...}" />
-            <marker date="1537816037224" expanded="true" signature="651:757" ph="{...}" />
-            <marker date="1537816037224" expanded="true" signature="787:887" ph="{...}" />
-            <marker date="1537816037224" expanded="true" signature="920:1003" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -708,7 +673,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NewRestAPI/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1062">
+        <state relative-caret-position="1110">
           <caret line="94" column="49" selection-start-line="94" selection-start-column="49" selection-end-line="94" selection-end-column="49" />
           <folding>
             <marker date="1537865531948" expanded="false" signature="6:733" ph="..." />
@@ -725,6 +690,118 @@
             <marker date="1537865531948" expanded="true" signature="2570:2684" ph="{...}" />
             <marker date="1537865531948" expanded="true" signature="2697:2905" ph="{...}" />
             <marker date="1537865531948" expanded="true" signature="2764:2881" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PetShop.Core.Entities/Filter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <marker date="1537957227406" expanded="true" signature="31:142" ph="{...}" />
+            <marker date="1537957227406" expanded="true" signature="54:140" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PetShop.Core/ApplicationService/IPetService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1537956911123" expanded="false" signature="6:92" ph="..." />
+            <marker date="1537956911123" expanded="true" signature="127:852" ph="{...}" />
+            <marker date="1537956911123" expanded="true" signature="159:849" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PetShop.Core/DomainService/IPetRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1537958743116" expanded="true" signature="6:92" ph="..." />
+            <marker date="1537958743116" expanded="true" signature="122:427" ph="{...}" />
+            <marker date="1537958743116" expanded="true" signature="157:425" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PetShop.Core/ApplicationService/Implementations/PetService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="43" column="78" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
+          <folding>
+            <marker date="1537957945837" expanded="false" signature="6:188" ph="..." />
+            <marker date="1537957945837" expanded="true" signature="239:2629" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="280:2627" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="466:550" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="614:809" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="677:784" ph="/* foreach (var pet in PetList) ... */" />
+            <marker date="1537957945837" expanded="true" signature="860:1247" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="921:1014" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="1093:1183" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="1281:1339" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="1469:1650" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="1497:1645" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="1684:1734" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="1768:1818" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="1859:1917" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="1964:2259" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="2076:2172" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="2127:2167" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="2204:2231" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="2314:2376" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="2435:2624" ph="{...}" />
+            <marker date="1537957945837" expanded="true" signature="2542:2592" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewRestAPI/Controllers/PetsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+          <folding>
+            <marker date="1537957120510" expanded="false" signature="6:204" ph="..." />
+            <marker date="1537957120510" expanded="true" signature="238:2042" ph="{...}" />
+            <marker date="1537957120510" expanded="true" signature="332:2040" ph="{...}" />
+            <marker date="1537957120510" expanded="true" signature="429:466" ph="{...}" />
+            <marker date="1537957120510" expanded="true" signature="571:715" ph="{...}" />
+            <marker date="1537957120510" expanded="true" signature="582:644" ph="{...}" />
+            <marker date="1537957120510" expanded="true" signature="667:711" ph="{...}" />
+            <marker date="1537957120510" expanded="true" signature="797:907" ph="{...}" />
+            <marker date="1537957120510" expanded="true" signature="994:1484" ph="{...}" />
+            <marker date="1537957120510" expanded="true" signature="1037:1096" ph="{...}" />
+            <marker date="1537957120510" expanded="true" signature="1136:1209" ph="{...}" />
+            <marker date="1537957120510" expanded="true" signature="1249:1324" ph="{...}" />
+            <marker date="1537957120510" expanded="true" signature="1377:1444" ph="{...}" />
+            <marker date="1537957120510" expanded="true" signature="1586:1737" ph="{...}" />
+            <marker date="1537957120510" expanded="true" signature="1621:1691" ph="{...}" />
+            <marker date="1537957120510" expanded="true" signature="1829:2037" ph="{...}" />
+            <marker date="1537957120510" expanded="true" signature="1896:1980" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PetShop.Infrastructure.Database/PetRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="26" column="68" lean-forward="true" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+          <folding>
+            <marker date="1537959087029" expanded="true" signature="6:160" ph="..." />
+            <marker date="1537959087029" expanded="true" signature="203:1280" ph="{...}" />
+            <marker date="1537959087029" expanded="true" signature="250:1278" ph="{...}" />
+            <marker date="1537959087029" expanded="true" signature="335:358" ph="{...}" />
+            <marker date="1537959087029" expanded="true" signature="412:612" ph="{...}" />
+            <marker date="1537959087029" expanded="true" signature="439:471" ph="{...}" />
+            <marker date="1537959087029" expanded="true" signature="652:832" ph="{...}" />
+            <marker date="1537959087029" expanded="true" signature="864:970" ph="{...}" />
+            <marker date="1537959087029" expanded="true" signature="1000:1100" ph="{...}" />
+            <marker date="1537959087029" expanded="true" signature="1133:1216" ph="{...}" />
+            <marker date="1537959087029" expanded="true" signature="1238:1275" ph="{...}" />
           </folding>
         </state>
       </provider>

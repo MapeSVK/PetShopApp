@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Entities;
+using PetShop.Core.Entities;
 
 namespace Core.DomainService
 {
@@ -8,7 +9,7 @@ namespace Core.DomainService
 	{
 
 		//Read Pets
-		IEnumerable<Pet> ReadAllPets();
+		IEnumerable<Pet> ReadAllPets(Filter filter = null);
 
 		//Update Pet
 		Pet UpdatePet(Pet updatedPet);
@@ -21,5 +22,7 @@ namespace Core.DomainService
 
 		//get if of the pet
 		Pet GetPetById(int id);
+		
+		int Count();
 	}
 }

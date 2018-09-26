@@ -8,6 +8,7 @@ namespace Core.ApplicationService
 	public interface IPetService
 	{
 		List<Pet> GetPets();
+		List<Pet> GetFilteredPets(Filter filter);
 
 		//create new pet with properties
 		Pet CreatePet(
@@ -38,6 +39,7 @@ namespace Core.ApplicationService
 
 		//Get 5 cheapest pets in the Little Pet Shop
 		List<Pet> GetFiveCheapestPets(List<Pet> petList);
+		
 	}
 
 }

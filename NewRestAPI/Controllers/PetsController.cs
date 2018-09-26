@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Core.ApplicationService;
 using Entities;
 using Microsoft.AspNetCore.Mvc;
+using PetShop.Core.Entities;
 
 namespace NewRestAPI.Controllers
 {
@@ -23,9 +24,16 @@ namespace NewRestAPI.Controllers
 
 		// GET api/values
 		[HttpGet]
-		public ActionResult<IEnumerable<Pet>> Get()
+		public ActionResult<IEnumerable<Pet>> Get([FromQuery] Filter filter)
 		{
-			return Ok(_petService.GetPets());
+			try
+			{
+				return Ok(_petService.GetFilteredPets(filter));
+			}
+			catch (Exception e)
+			{
+				return BadRequest(e.Message);
+			}
 		}
 
 		// GET api/values/5
